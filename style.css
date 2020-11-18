@@ -43,7 +43,10 @@ html {
 	overflow-x:hidden;
 	overflow:-moz-scrollbars-vertical;
 	overflow-y:hidden;
-	background-color: #191714;
+  background-image: url(image.jpg); /* Путь к фоновому изображению */
+  background-color: #c7b39b; /* Цвет фона */
+  width:auto;
+  height:auto;
 }
 
 p{
@@ -105,7 +108,7 @@ a:hover {
   -o-filter:blur(15px);
   -ms-filter:blur(15px);
   filter:blur(15px);
-  background:rgba(7,9,21,.5);
+  background:rgba(0, 0, 0, 0.5);
   filter:brightness(62.5%);
   top:50%;
   left:50%
